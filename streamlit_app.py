@@ -46,8 +46,8 @@ except URLError as e:
   
 streamlit.write('The user entered ', fruit_choice)
 
-## We put a stop to work in the code that is before this stop, the other code is not run
-streamlit.stop()
+# ## We put a stop to work in the code that is before this stop, the other code is not run
+# streamlit.stop()
 
 # my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 # my_cur = my_cnx.cursor()
