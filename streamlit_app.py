@@ -4,6 +4,10 @@ import snowflake.connector
 import requests
 from urllib.error import URLError
 
+"""
+https://valencia-fuchs-first-streamlit-app-streamlit-app-62z86e.streamlitapp.com/
+"""
+
 streamlit.title('My Parents New Healthy Dinner') 
 streamlit.header('Breakfast Menu')
 streamlit.text('🥣 Omega & and Blueberry Oatmeal')
